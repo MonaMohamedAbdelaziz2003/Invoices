@@ -44,7 +44,7 @@
                     @endcan
 
                     @can('الفواتير المدفوعة')
-                        <li><a class="slide-item" href="{{ url('/' . ($page = 'Invoice_Paid')) }}">الفواتير المدفوعة</a>
+                        <li><a class="slide-item" href="{{ url('/' . ($page = 'Invoices_Paid')) }}">الفواتير المدفوعة</a>
                     @endcan
 
                     </li>
